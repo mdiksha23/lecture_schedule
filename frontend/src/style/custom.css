@@ -1,0 +1,25 @@
+.card {
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+}
+
+.instructor_list ul {
+  list-style: none;
+  padding: 0rem !important;
+}
+
+.instructor_list li {
+  list-style: none;
+  text-align: left;
+  padding: 20px 20px;
+  background: radial-gradient(
+    253px at 12.6% 77.9%,
+    rgb(221, 255, 214) 0.3%,
+    rgb(214, 254, 254) 90.5%
+  );
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+}

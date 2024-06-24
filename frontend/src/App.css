@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.admin-card .card {
+  min-height: 12rem;
+  transition: 0.3s ease-in-out;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  align-content: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.course-card {
+  background: linear-gradient(45deg, #6d80fe 0, #23d2fd 100%);
+  box-shadow: 0 5px 20px rgba(35, 210, 253, 0.3);
+}
+.course-card:hover {
+  background: linear-gradient(90deg, #6d80fe 0, #23d2fd 100%);
+}
+
+.lecture-card {
+  background: linear-gradient(45deg, #09afe8 0%, #29f499 100%);
+  box-shadow: 0 5px 20px rgba(41, 244, 153, 0.3);
+}
+
+.lecture-card:hover {
+  background: linear-gradient(90deg, #09afe8 0%, #29f499 100%);
+}
+
+.instructor-card {
+  background: linear-gradient(45deg, #ff998b 0%, #ff6d88 100%);
+  box-shadow: 0 5px 20px rgba(255, 153, 139, 0.3);
+}
+
+.instructor-card:hover {
+  background: linear-gradient(90deg, #ff998b 0%, #ff6d88 100%);
+}
+
+.course-card .card-body,
+.lecture-card .card-body,
+.instructor-card .card-body {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.admin-card .card:hover {
+  transform: scale(1.05);
+}
+
+.titleIdea {
+  cursor: pointer;
+  font-size: 72px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
